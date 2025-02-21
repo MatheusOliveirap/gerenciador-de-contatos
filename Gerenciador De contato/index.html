@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gerenciador de Contatos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerenciador de Contatos</h1>
+
+      <form id="form-group" class="form-group">
+        <input type="text" id="nome" placeholder="Nome" required />
+        <input type="tel" id="telefone" placeholder="Telefone" required />
+        <input type="email" id="email" placeholder="E-mail" required />
+        <button type="submit" id="addContato">Adicionar</button>
+      </form>
+
+      <ul id="listaContatos"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
